@@ -61,9 +61,9 @@ Run > Run 'All Tests'
 
 ## 📷 Screenshots
 
-| Search & Rate | Rated Movies |
+| Search | Detail |
 |---------------|--------------|
-| ![search](docs/search.png) | ![rated](docs/rated.png) |
+| ![search](screenshots/search.png) | ![screenshots](docs/rated.png) |
 
 ## 📂 Folder Structure
 
