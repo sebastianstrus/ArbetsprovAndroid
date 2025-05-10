@@ -1,71 +1,72 @@
-# 🎬 MovieRater (Android)
 
-MovieRater is a simple Android application built with **Jetpack Compose** that allows users to search for movies via the OMDb API and rate them. Rated movies are stored locally using Jetpack DataStore. This project mirrors the iOS version built with SwiftUI.
+# 🎬 MovieRater – Android Arbetsprov för Digg
 
-## 🛠️ Built With
+MovieRater är en enkel Android-applikation byggd med **Jetpack Compose** som låter användare söka efter filmer via OMDb API och betygsätta dem. Betygsatta filmer lagras lokalt med hjälp av Jetpack DataStore. Detta projekt speglar iOS-versionen byggd med SwiftUI.
+
+## 🛠️ Byggd med
 
 - **Kotlin**
-- **Jetpack Compose** – UI Toolkit
-- **Jetpack ViewModel & Lifecycle** – MVVM architecture
-- **Jetpack Navigation** – Navigation between screens
-- **DataStore** – Persistent local storage for ratings
-- **Coil** – Image loading
-- **OMDb API** – Movie data source
+- **Jetpack Compose** – UI-verktyg
+- **Jetpack ViewModel & Lifecycle** – MVVM-arkitektur
+- **Jetpack Navigation** – Navigering mellan vyer
+- **DataStore** – Beständig lokal lagring för betyg
+- **Coil** – Bildladdning
+- **OMDb API** – Datakälla för filmer
 
-## 📱 Features
+## 📱 Funktioner
 
-- 🔍 **Search** for movies by title
-- ⭐ **Rate** movies from 1 to 5 stars
-- 📂 **View previously rated** movies
-- 💾 Ratings stored **locally** using Jetpack DataStore
-- 🎨 Modern UI with **Jetpack Compose**
+- 🔍 **Sök** efter filmer med titel
+- ⭐ **Betygsätt** filmer från 1 till 5 stjärnor
+- 📂 **Visa tidigare betygsatta** filmer
+- 💾 Betyg lagras **lokalt** med Jetpack DataStore
+- 🎨 Modern UI med **Jetpack Compose**
 
-## 📦 Dependencies
+## 📦 Beroenden
 
-| Library                          | Purpose                    |
-|----------------------------------|-----------------------------|
-| `androidx.lifecycle`             | MVVM architecture           |
-| `androidx.navigation`            | Navigation component        |
-| `io.coil-kt:coil-compose`        | Load movie posters          |
-| `com.google.code.gson:gson`      | Parse JSON responses        |
-| `Jetpack Compose` (Material3, etc.) | Declarative UI             |
-| `Jetpack DataStore`              | Local persistent storage    |
+| Bibliotek                         | Syfte                        |
+|----------------------------------|------------------------------|
+| `androidx.lifecycle`             | MVVM-arkitektur              |
+| `androidx.navigation`            | Navigationskomponent         |
+| `io.coil-kt:coil-compose`        | Ladda filmaffischer          |
+| `com.google.code.gson:gson`      | Parsar JSON-svar             |
+| `Jetpack Compose` (Material3, etc.) | Deklarativ UI               |
+| `Jetpack DataStore`              | Lokal beständig lagring      |
 
-## 🚀 Getting Started
+## 🚀 Kom igång
 
-1. Clone the repo:
+1. Klona repot:
    ```bash
    git clone https://github.com/yourusername/movierater-android.git
    ```
 
-2. Open in **Android Studio Hedgehog** or newer.
+2. Öppna i **Android Studio Hedgehog** eller nyare.
 
-3. Run the app on a device or emulator.
+3. Kör appen på en enhet eller emulator.
 
-## 🔐 OMDb API Key
+## 🔐 OMDb API-nyckel
 
-This app requires an OMDb API key. Create a free account at [http://www.omdbapi.com](http://www.omdbapi.com), then:
+Appen kräver en OMDb API-nyckel. Skapa ett gratis konto på [http://www.omdbapi.com](http://www.omdbapi.com), och:
 
-- Add your API key in `MovieService.kt`:
+- Lägg till din API-nyckel i `MovieService.kt`:
   ```kotlin
   private val apiKey = "your_api_key_here"
   ```
 
-## 🧪 Testing
+## 🧪 Testning
 
-The app uses JUnit for unit testing. You can run tests from Android Studio via:
+Appen använder JUnit för enhetstester. Du kan köra tester från Android Studio via:
 
 ```
 Run > Run 'All Tests'
 ```
 
-## 📷 Screenshots
+## 📷 Skärmbilder
 
-| Main | Detail |
-|---------------|--------------|
-| ![main](screenshots/main.png) | ![detail](screenshots/detail.png) |
+| Huvudvy | Detaljvy |
+|--------|----------|
+| ![main](Screenshots/main.png) | ![detail](Screenshots/detail.png) |
 
-## 📂 Folder Structure
+## 📂 Mappstruktur
 
 ```
 ├── MainActivity.kt
@@ -77,10 +78,10 @@ Run > Run 'All Tests'
 └── model/
 ```
 
-## 👩‍💻 Author
+## 👩‍💻 Författare
 
-Sebastian Strus  
+Sebastian Strus
 
-## 📄 License
+## 📄 Licens
 
-MIT License. See `LICENSE` file for details.
+MIT-licens. Se `LICENSE`-filen för detaljer.
