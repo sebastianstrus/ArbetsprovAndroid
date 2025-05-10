@@ -61,9 +61,9 @@ Run > Run 'All Tests'
 
 ## 📷 Screenshots
 
-| Search | Detail |
+| Main | Detail |
 |---------------|--------------|
-| ![search](screenshots/search.png) | ![screenshots](docs/rated.png) |
+| ![main](screenshots/main.png) | ![detail](screenshots/detail.png) |
 
 ## 📂 Folder Structure
 
